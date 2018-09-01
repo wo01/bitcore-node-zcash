@@ -4,10 +4,10 @@
   "author": "BitPay <dev@bitpay.com>",
   "version": "3.1.2",
   "main": "./index.js",
-  "repository": "git://github.com/zcash-hackworks/bitcore-node-zcash.git",
-  "homepage": "https://github.com/zcash-hackworks/bitcore-node-zcash",
+  "repository": "git://github.com/wo01/bitcore-node-zcash.git",
+  "homepage": "https://github.com/wo01/bitcore-node-zcash",
   "bugs": {
-    "url": "https://github.com/zcash-hackworks/bitcore-node-zcash/issues"
+    "url": "https://github.com/wo01/bitcore-node-zcash/issues"
   },
   "contributors": [
     {
@@ -36,6 +36,10 @@
     {
       "name": "Ian Munoz",
       "email": "ian.org@gmail.com"
+    },
+    {
+      "name": "WO",
+      "email": "wo@ko-to.org"
     }
   ],
   "bin": {
@@ -55,7 +59,7 @@
   "dependencies": {
     "async": "^1.3.0",
     "bitcoind-rpc": "^0.6.0",
-    "bitcore-lib-zcash": "ianamunoz/bitcore-lib-zcash",
+    "bitcore-lib-zcash": "wo01/bitcore-lib-zcash",
     "body-parser": "^1.13.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
